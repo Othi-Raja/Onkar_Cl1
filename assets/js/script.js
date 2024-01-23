@@ -205,3 +205,21 @@ window.addEventListener('scroll', function() {
       serviceItem.querySelector(':before').style.opacity = 0;
   }
 });
+
+// emailJs
+// const sendEmail=()=>{
+//   var templateParams = {
+//     from_name: document.getElementById("name").value,
+//     email: document.getElementById("email").value,
+//     subject: document.getElementById("subject").value,
+//     message: document.getElementById("message").value
+
+// };
+// emailjs.send('service_o7ze7xz','template_uvra0mq',templateParams).then(function(res){
+//   alert('sucessfull')
+// })
+// }
+
+// (function(){
+//   emailjs.init("VNTleMBW5RpUMxBDv");
+// })();
