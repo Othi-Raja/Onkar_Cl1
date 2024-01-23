@@ -130,6 +130,24 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .section-sm {
   padding: 70px 0;
 }
+ 
+.posterbg{
+  background:url('/assets/images/blob.svg') ;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+}
+iframe{
+  border-radius: 10px;
+  box-shadow: 0px 0px 82px -20px rgba(0, 0, 0, 0.33);
+}
+.iframely-embed{
+  box-shadow: 0px 0px 82px -20px rgba(0, 0, 0, 0.33);
+}
+iframe:hover{
+  margin: -10;
+}
+
 
 .section-top {
   padding-top: 100px;
@@ -569,6 +587,8 @@ overflow-x: hidden;
 .service-item p {
   margin-bottom: 50px;
 }
+ 
+
 
 .service-item:before {
   position: absolute;
@@ -632,8 +652,22 @@ overflow-x: hidden;
 .intro-img img {
   position: relative;
   border-radius: 10px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.474);
 }
-
+ 
+.error-message {
+  color: red;
+}
+.box-Shadow{
+  box-shadow: 0px 4px 10px -3px rgba(0, 0, 0, 0.333);
+}
+.contact__form input:hover{
+  box-shadow: 0px 4px 10px -3px rgba(0, 0, 0, 0.333);
+}
+.contact__form textarea:hover{
+  box-shadow: 0px 4px 10px -3px rgba(0, 0, 0, 0.164);
+  
+}
 /* .intro-img:before {
   position: absolute;
   content: "";
@@ -1469,4 +1503,3 @@ pre {
   }
 }
 
-/*# sourceMappingURL=maps/style.css.map */

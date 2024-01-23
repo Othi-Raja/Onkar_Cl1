@@ -168,3 +168,40 @@ $(document).ready(function () {
     });
 
 })(jQuery);
+
+
+function validateForm() {
+  var emailInput = document.getElementById("email");
+  var emailError = document.getElementById("emailError");
+
+  // Regular expression for basic email validation
+  var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  if (!emailRegex.test(emailInput.value)) {
+      emailError.textContent = "Please enter a valid email address.";
+      emailInput.focus();
+
+      // Set a timeout to clear the error message after 3 seconds (adjust the time as needed)
+      setTimeout(function() {
+          emailError.textContent = "";
+      }, 3000);
+
+      return false;
+  } else {
+      emailError.textContent = ""; // Clear the error message if email is valid
+  }
+
+  // Additional validation or form submission logic can be added here
+}
+
+window.addEventListener('scroll', function() {
+  var serviceItem = document.querySelector('.service-item');
+  var offset = serviceItem.offsetTop;
+  var scrollPosition = window.scrollY;
+
+  if (scrollPosition > offset) {
+      serviceItem.querySelector(':before').style.opacity = 1;
+  } else {
+      serviceItem.querySelector(':before').style.opacity = 0;
+  }
+});
