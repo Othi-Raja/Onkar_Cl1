@@ -25,7 +25,7 @@
   <!-- Slick Carousel CSS -->
   <link rel="stylesheet" href="assets/plugins/slick-carousel/slick/slick.css">
   <link rel="stylesheet" href="assets/plugins/slick-carousel/slick/slick-theme.css">
-
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="assets/css/style.css">
 
@@ -52,18 +52,16 @@
 		  <li class="nav-item">
 			<a class="nav-link smoth-scroll active" href="#slider">Home <span class="sr-only">(current)</span></a>
 		  </li>
-		   <li class="nav-item"><a class="nav-link smoth-scroll" href="#about">About</a></li>
+		   <li class="nav-item"><a class="nav-link smoth-scroll" href="#intro">About</a></li>
 		   <li class="nav-item"><a class="nav-link smoth-scroll" href="#services">Services</a></li>
-		   <li class="nav-item"><a class="nav-link smoth-scroll" href="#portfolio">Portfolio</a></li>
 		   <li class="nav-item"><a class="nav-link smoth-scroll" href="#skills">Skills</a></li>
-		   <li class="nav-item"><a class="nav-link smoth-scroll" href="#team">Team</a></li>
 		   <li class="nav-item"><a class="nav-link smoth-scroll" href="#blog">Blog</a></li>
 		   <li class="nav-item"><a class="nav-link smoth-scroll" href="#contact">Contact</a></li>
 		</ul>
 
-		<form class="form-inline my-2 my-md-0 ml-lg-4">
+		<!-- <form class="form-inline my-2 my-md-0 ml-lg-4">
 		  <a href="#contact" class="btn btn-main btn-rounded smoth-scroll">Contact Us<i class="fa fa-angle-right ml-2"></i></a>
-		</form>
+		</form> -->
 	  </div>
 	</div>
 </nav>
@@ -83,7 +81,7 @@
 	                    <span class="cd-words-wrapper text-color">
 	                        <b class="is-visible">Marketing </b>
 							<b>Branding</b>
-	                        <b>Creative Ideas.</b>
+	                        <b>Product Development</b>
 	                    </span>
 	                </h1>
 					<p class="font-weight-normal lead mt-3 mb-4">Hello! I'm Onkar, a devoted branding and marketing enthusiast committed to driving organizational success through strategic brand development and effective reputation management..</p>
@@ -101,27 +99,29 @@
 		</div>
 	</div>
 </section>
-<section class="intro section">
+<section class="intro section" id="intro">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 pr-lg-5">
-				<div class="intro-img">
-					<img src="assets/images/onkar-img.jpeg" alt="" class="img-fluid">
+				<div class="intro-img" data-aos="fade-up"
+				>
+					<img  src="assets/images/onkar-img.jpeg" alt="" class="img-fluid">
 				</div>
 			</div>
 			<div class="col-lg-6">
 				<div class="intro-content mt-5 mt-lg-0">
-					<h2 class="text-lg mb-4"> <i class="fa fa-quote-left" aria-hidden="true"></i> Innovative strategies business growth and elevate brands to new heights.</h2>
+					<h2 data-aos="fade-in" class="text-lg mb-4"> <i class="fa fa-quote-left" aria-hidden="true"></i> Innovative strategies business growth and elevate brands to new heights.</h2>
 
-					<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aliquid accusamus veritatis quasi vero id libero, itaque et sequi, ipsa tempore officia delectus laudantium modi error nihil. Voluptatum</p>
+					<p data-aos="fade-up" data-aos-duration="200" class="mb-4">Hello there! <b style="color: red; font-size:20px"> I'm Onkar</b>, a passionate Branding and Marketing enthusiast dedicated to helping organizations flourish through strategic brand
+						development and effective reputation management.</p>
 					
 					<ul class="list-unstyled ">
-						<li><h5><i class="ti-check mr-3"></i>Quality Assurance</h5></li>
-						<li><h5><i class="ti-check mr-3"></i>Interective Design </h5></li>
-						<li><h5><i class="ti-check mr-3"></i>Easy to Use</h5></li>
+						<li data-aos="fade-up"  data-aos-duration="200"><h5><i class="ti-check mr-3"></i> Product Growth</h5></li>
+						<li data-aos="fade-up"  data-aos-duration="400"><h5><i class="ti-check mr-3"></i>Product Development </h5></li>
+						<li data-aos="fade-up" data-aos-duration="600"><h5><i class="ti-check mr-3"></i> Digital Innovation 💡</h5></li>
 					</ul>
 
-					<a href="#services" class="btn btn-main mt-4 btn-rounded smoth-scroll">Services<i class="fa fa-angle-right ml-2"></i></a>
+					<a data-aos="fade" href="#services" class="btn btn-main mt-4 btn-rounded smoth-scroll">Services<i class="fa fa-angle-right ml-2"></i></a>
 				</div>
 			</div>
 		</div>
@@ -284,8 +284,9 @@
 		</div>
 	</div>
 </section>
+
 <!-- portfolio -->
-<section class="section portfolio" id="portfolio">
+<!-- <section class="section portfolio" id="portfolio">
   <div class="container">
   	 <div class="row justify-content-center">
 		<div class="col-lg-6">
@@ -389,7 +390,7 @@
     	</div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- /portfolio -->
 <section class="section experience" id="skills">
 	<div class="container">
@@ -404,25 +405,37 @@
 		<div class="row">
 			<div class="col-lg-6">
 				<div class="content mb-4">
-					<h4>UX Designer</h4>
-					<span class="text-color">Googl inc[2000-2004]</span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+					<h4>Media Strategy</h4>
+					<span class="text-color">October 2023 - Present</span>
+					<p><h6>Working for a leading Manufacturing Client:</h6>
+						<ul>
+							<li>Media Channel Strategy</li>
+							<li>Media Channel Creation</li>
+							<li>Content Strategy</li>
+							<li>Project Management</li>
+						</ul></p>
 				</div>
 				<div class="content mb-4">
-					<h4>Developer</h4>
-					<span class="text-color">Googl inc[2000-2004]</span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+					<h4>Adamas Tech Consulting</h4>
+					<p>Adamas Tech Consulting was established with the vision of digitizing education and providing digital solutions</p>
+					<span class="text-color">1 year 1 month</span>
+					<p><ul>
+						<li>Business Development Associate- Marketing</li>
+						<li>Product Sales Associate</li>
+						<li> Product Management Intern (PPO Holder)</li>
+					</ul></p>
 				</div>
 			</div>
 			<div class="col-lg-6">
 				<div class="content mb-4">
-					<h4>Marketer</h4>
-					<span class="text-color">Googl inc[2000-2004]</span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+					<h4>  Y-Axis Overseas Careers, Bengaluru</h4>
+					<span class="text-color"> November 2022 - Present</span>
+					<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p> -->
 				</div>
 				<div class="content mb-4">
-					<h4>Marketer</h4>
-					<span class="text-color">Googl inc[2000-2004]</span>
+					<h4> Zielhoch Together Let's Aim For High
+						</h4><b style="font-size: 16px;">Intern</b>
+					<span class="text-color">August 2022 - October 2022</span>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 				</div>
 			</div>
@@ -833,7 +846,14 @@
   
     <script src="assets/plugins/jquery/ajax-contact.js"></script>
     <script src="assets/js/script.js"></script>
-
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			offset: 50, // Set your minimal offset value in pixels
+			duration: 800, // Set the animation duration (optional)
+			easing: 'ease-in-out', // Set the animation easing (optional)
+		});
+	</script>
   </body>
   </html>
    

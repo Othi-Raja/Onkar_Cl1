@@ -634,16 +634,16 @@ overflow-x: hidden;
   border-radius: 10px;
 }
 
-.intro-img:before {
+/* .intro-img:before {
   position: absolute;
   content: "";
   left: -40px;
   top: -30px;
-  background: #f6f5ff;
+  background: url('/assets/images/graph.png');
   width: 420px;
   height: 420px;
   z-index: -1;
-}
+} */
 
 .intro-img img {
   width: 100%;
