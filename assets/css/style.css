@@ -125,6 +125,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 .section {
   padding: 10px 0;
+  margin-bottom: 10px;
 }
 
 .section-sm {
@@ -250,6 +251,7 @@ a:focus, a:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 0.04);
   height: 60px;
   width: 100%;
+
 }
 
 .navigation .nav-link {
@@ -279,28 +281,54 @@ a:focus, a:hover {
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
   z-index: 3;
-  /* width: 100vw; */
   height: 60px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+ background:  rgba(255, 255, 255, 0.553);
+border-radius: 4px;margin-bottom: 1px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 }
 /* Add the background color to the custom-toggler class */
 .custom-glass {
 /* From https://css.glass */
-background: rgba(255, 255, 255, 0.2);
+background: rgba(255, 255, 255, 0.553);
 border-radius: 4px;margin-bottom: 1px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 
 }
-.margintop10{
+/* .show>ul{
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;margin-bottom: 1px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+} */
+/* .sleep .show{
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;margin-bottom: 1px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+} */
+.show>ul>li{
+  margin-bottom: 5px;
+}
+.show{
+ 
   margin-top: 8px;
+  /* From https://css.glass */
+background: rgba(178, 175, 175, 0.553);
+border-radius: 2px;
+margin-bottom: 5px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
 }
 #navbar{
   width: 100%;
-  background-color: white;
+ 
 }
 
 .site-header.awake {

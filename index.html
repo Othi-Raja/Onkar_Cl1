@@ -29,26 +29,28 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-	<nav class="container-fluid navbar navbar-expand-lg navigation header-padding site-header" id="navbar" style="z-index: 999;">
-		<div class="container">
+	<nav class="container-fluid navbar navbar-expand-lg navigation header-padding site-header" id="navbar" style="z-index: 999;" >
+		<div class="container ">
 			<a class="navbar-brand" href="index.html">
 				<span style="color: red; font-weight: bolder;">Onkar Bhadra</span>
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="fa fa-bars"></span>
 			</button>
-			<div class="collapse navbar-collapse " id="navbarmain">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item  ">
-						<a class="nav-link smoth-scroll active " href="#slider">Home <span class="sr-only">(current)</span></a>
+			<div class="collapse navbar-collapse w-100" id="navbarmain" style="width: 100%;">
+				<ul class="navbar-nav ml-100">
+					
+					<li class="nav-item">
+						<a class="nav-link smoth-scroll active margintop10" href="#slider">Home <span class="sr-only">(current)</span></a>
 					</li>
-					<li class="nav-item "><a class="nav-link smoth-scroll" href="#intro">About</a></li>
-					<li class="nav-item "><a class="nav-link smoth-scroll" href="#services">Services</a></li>
-					<li class="nav-item "><a class="nav-link smoth-scroll" href="#skills">Skills</a></li>
-					<li class="nav-item "><a class="nav-link smoth-scroll" href="#blog">Blog</a></li>
-					<li class="nav-item "><a class="nav-link smoth-scroll" href="#contact">Contact</a></li>
+					<li class="nav-item"><a class="nav-link smoth-scroll margintop10" href="#intro">About</a></li>
+					<li class="nav-item"><a class="nav-link smoth-scroll margintop10" href="#services">Services</a></li>
+					<li class="nav-item"><a class="nav-link smoth-scroll margintop10" href="#skills">Skills</a></li>
+					<li class="nav-item"><a class="nav-link smoth-scroll margintop10" href="#blog">Blog</a></li>
+					<li class="nav-item"><a class="nav-link smoth-scroll margintop10" href="#contact">Contact</a></li>
 				</ul>
 			</div>
+			
 		</div>
 	</nav>
 	
@@ -203,7 +205,7 @@
 			<div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-duration="400" data-aos-easing="ease">
 				<div class="service-item">
 					<div class="d-flex align-items-center mb-4">
-						<a><img width="70" height="70" src="https://img.icons8.com/dotty/80/commercial-development-management.png" alt="commercial-development-management"/></a>
+						<a><img width="70px" height="70px" src="data:image/png;base64,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"></a>
 						<h4>Reputation Management</h4>
 					</div>
 					<p>Strategically managing and enhancing brand reputations with a focus on excellence and impact</p>
@@ -481,6 +483,12 @@
 		 
 	</div>
 </section>
+ <div class="footer-top text-right">
+			<a href="#slider" class="top-to-bototm smoth-scroll"><i class="ti-angle-up"></i></a>
+		</div> 
+		<!-- <div class="loader-wrapper">
+			<span class="loader"><span class="loader-inner"></span></span>
+		  </div> -->
     <!-- 
     Essential Scripts
     =====================================-->

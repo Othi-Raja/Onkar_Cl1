@@ -205,7 +205,9 @@ window.addEventListener('scroll', function() {
       serviceItem.querySelector(':before').style.opacity = 0;
   }
 });
-
+// $(window).on("load",function(){
+//   $(".loader-wrapper").fadeOut("slow");
+// });
 // emailJs
 // const sendEmail=()=>{
 //   var templateParams = {
