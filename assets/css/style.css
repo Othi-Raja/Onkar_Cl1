@@ -124,7 +124,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 .section {
-  padding: 40px 0;
+  padding: 20px 0;
 }
 
 .section-sm {
@@ -179,7 +179,7 @@ iframe:hover{
 }
 
 .title {
-  margin-bottom: 70px;
+  margin-bottom: 10px;
 }
 
 .title h2 {
@@ -267,25 +267,40 @@ a:focus, a:hover {
 .navigation .nav-link.active {
   color: #FF3D4F;
 }
-
+/* .navbar-collapse{
+  background-color: white;
+} */
 .site-header.scrolled {
   position: fixed;
   top: 0;
   /* margin-top: 10px; */
-  background: #fff;
+  background: transparent;
   transition: .0s all ease;
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
   z-index: 3;
-  width: 100vw;
+  /* width: 100vw; */
   height: 60px;
-
-  /* From https://css.glass */
-background: rgba(255, 255, 255, 0.2);
-
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
+}
+/* Add the background color to the custom-toggler class */
+.custom-glass {
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 4px;margin-bottom: 1px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+
+}
+.margintop10{
+  margin-top: 8px;
+}
+#navbar{
+  width: 100%;
+  background-color: white;
 }
 
 .site-header.awake {
