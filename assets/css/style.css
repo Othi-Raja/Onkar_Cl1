@@ -124,7 +124,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 .section {
-  padding: 100px 0;
+  padding: 40px 0;
 }
 
 .section-sm {
@@ -248,6 +248,8 @@ a:focus, a:hover {
 
 .navigation {
   border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  height: 60px;
+  width: 100%;
 }
 
 .navigation .nav-link {
@@ -258,9 +260,9 @@ a:focus, a:hover {
   font-weight: 700;
 }
 
-.header-padding {
+/* .header-padding {
   padding: 0px 80px;
-}
+} */
 
 .navigation .nav-link.active {
   color: #FF3D4F;
@@ -269,13 +271,15 @@ a:focus, a:hover {
 .site-header.scrolled {
   position: fixed;
   top: 0;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   background: #fff;
   transition: .0s all ease;
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
   z-index: 3;
-  width: 100%;
+  width: 100vw;
+  height: 60px;
+
   /* From https://css.glass */
 background: rgba(255, 255, 255, 0.2);
 
