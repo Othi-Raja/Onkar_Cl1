@@ -647,6 +647,7 @@ overflow-x: hidden;
   position: relative;
   z-index: 1;
   transition: all .45s ease;
+  margin-bottom: 6px;
 }
 
 .service-item h4, .service-item i, .service-item p {
@@ -659,7 +660,7 @@ overflow-x: hidden;
 }
 
 .service-item p {
-  margin-bottom: 50px;
+  margin-bottom: 3px;
 }
  
 
