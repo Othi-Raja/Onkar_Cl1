@@ -111,6 +111,10 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   box-shadow: none;
 }
 
+.learnmorebtn:hover{
+  background-color: #19244b;
+}
+
 .bg-shadow {
   box-shadow: 0px 0px 82px -20px rgba(0, 0, 0, 0.33);
 }
@@ -122,7 +126,12 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .bg-dark {
   background: #202122;
 }
-
+.softratelink{
+  color: rgb(228, 228, 228);
+}
+.softratelink:hover{
+color: rgba(218, 218, 218, 0.829);
+}
 .section {
   padding: 10px 0;
   margin-bottom: 10px;
