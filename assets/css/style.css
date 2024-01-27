@@ -384,6 +384,8 @@ backdrop-filter: blur(10px);
   color: #fff !important;
 }
 
+
+
 @media (max-width: 480px) {
   html,body{
     margin: 0;
@@ -461,6 +463,7 @@ overflow-x: hidden;
     position: relative;
   }
 }
+ 
 
 .slider {
   position: relative;
