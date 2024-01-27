@@ -285,17 +285,17 @@ a:focus, a:hover {
   position: fixed;
   top: 0;
   /* margin-top: 10px; */
-  background: transparent;
+  /* background: transparent; */
   transition: .0s all ease;
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
   z-index: 3;
   height: 60px;
- background:  rgba(255, 255, 255, 0.553);
-border-radius: 4px;margin-bottom: 1px;
+ background:  rgb(255, 255, 255);
+/* border-radius: 4px;margin-bottom: 1px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
 backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px); */
 }
 /* Add the background color to the custom-toggler class */
 .custom-glass {
@@ -325,15 +325,13 @@ backdrop-filter: blur(5px);
   margin-bottom: 5px;
 }
 .show{
- 
-  margin-top: 8px;
-  /* From https://css.glass */
-/* background: rgba(178, 175, 175, 0.553);
+   
+background: rgba(192, 105, 105, 0.553);
 border-radius: 2px;
 margin-bottom: 5px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
 backdrop-filter: blur(10px);
--webkit-backdrop-filter: blur(10px); */
+-webkit-backdrop-filter: blur(10px);
 }
  /* Full-width for mobile view */
  @media (max-width: 991px) {
