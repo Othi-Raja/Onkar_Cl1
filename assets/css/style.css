@@ -259,7 +259,7 @@ a:focus, a:hover {
 .navigation {
   border-bottom: 1px solid rgba(0, 0, 0, 0.04);
   height: 60px;
-  width: 100%;
+  
 
 }
 
@@ -328,12 +328,29 @@ backdrop-filter: blur(5px);
  
   margin-top: 8px;
   /* From https://css.glass */
-background: rgba(178, 175, 175, 0.553);
+/* background: rgba(178, 175, 175, 0.553);
 border-radius: 2px;
 margin-bottom: 5px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
 backdrop-filter: blur(10px);
--webkit-backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px); */
+}
+ /* Full-width for mobile view */
+ @media (max-width: 991px) {
+  .navbar-collapse {
+    width: 100%;
+    background-color: #ffffff; /* Change the background color as needed */
+    position: absolute;
+    top: 51px;
+    left: 0; /* Adjust this value based on your navbar height */
+  }
+
+  .navbar-nav {
+    width: 100%;
+     padding-left:20px ;
+  }
+
+ 
 }
 #navbar{
   width: 100%;
@@ -551,7 +568,15 @@ overflow-x: hidden;
     min-height: 400px;
   }
 }
-
+@media (max-width:270px) {
+ 
+  .size-35{
+    font-size: 20px;
+  }
+  .text-color>b{
+    font-size: 20px;
+  }
+}
 @media (max-width: 400px) {
  
   .slider h1 {
@@ -567,6 +592,12 @@ overflow-x: hidden;
   }
   .lead {
     font-size: 1rem;
+  }
+  .size-35{
+    font-size: 25px;
+  }
+  .text-color>b{
+    font-size: 25px;
   }
   .slider::before {
     display: none;
@@ -1569,28 +1600,28 @@ pre {
 @media (max-width: 480px) {
   .footer {
     background: #000a2d;
-    padding-top: 120px;
+    padding-top: 2px;
   }
 }
 
 @media (max-width: 400px) {
   .footer {
     background: #000a2d;
-    padding-top: 120px;
+    padding-top: 1px;
   }
 }
 
 @media (max-width: 768px) {
   .footer {
     background: #000a2d;
-    padding-top: 120px;
+    padding-top: 100px;
   }
 }
 
 @media (max-width: 992px) {
   .footer {
     background: #000a2d;
-    padding-top: 120px;
+    padding-top: 60px;
   }
 }
 
